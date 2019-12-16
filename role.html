@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>UMS - Unified Monitoring Service | Account - Role</title>
+	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+	<link rel="icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+
+	<!-- Fonts and icons -->
+	<script src="assets/js/plugin/webfont/webfont.min.js"></script>
+	<script>
+		WebFont.load({
+			google: {"families":["Lato:300,400,700,900"]},
+			custom: {"families":["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"], urls: ['assets/css/fonts.min.css']},
+			active: function() {
+				sessionStorage.fonts = true;
+			}
+		});
+	</script>
+
+	<!-- CSS Files -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/atlantis.min.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
+
+
+</head>
+<body data-background-color="dark">
+	<div class="wrapper">
+		<div class="main-header">
+			<!-- Logo Header -->
+			<div class="logo-header" data-background-color="blue">
+				<a href="#" class="logo text-dark font-weight-bold">
+					<img src="assets/img/logo.png" alt="navbar brand" class="navbar-brand">
+				</a>
+				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon">
+						<i class="icon-menu"></i>
+					</span>
+				</button>
+				<button class="topbar-toggler more"><i class="icon-options-vertical"></i></button>
+				<div class="nav-toggle">
+					<button class="btn btn-toggle toggle-sidebar">
+						<i class="icon-menu"></i>
+					</button>
+				</div>
+			</div>
+			<!-- End Logo Header -->
+
+			<!-- Navbar Header -->
+			<nav class="navbar navbar-header navbar-expand-lg" data-background-color="dark">
+				
+				<div class="container-fluid">
+					
+					<ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
+						 
+						 
+						<li class="nav-item dropdown hidden-caret">
+							<a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false">
+								<div class="avatar-sm">
+									<img src="assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
+								</div>
+							</a>
+							<ul class="dropdown-menu dropdown-user animated fadeIn">
+								<div class="dropdown-user-scroll scrollbar-outer">
+									<li>
+										<div class="user-box">
+											<div class="avatar-lg"><img src="assets/img/profile.jpg" alt="image profile" class="avatar-img rounded"></div>
+											<div class="u-text">
+												<h4>Muhammad Sidik</h4>
+												<p class="text-muted">Administrator
+													<br/>
+													<a href="#" class="text-decoration-none">My Profile</a>
+													<b> . </b>
+													<a href="login.html" class="text-decoration-none text-warning">Logout</a>
+												</p> 
+											</div>
+										</div>
+									</li>
+									 
+								</div>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<!-- End Navbar -->
+		</div>
+
+		<!-- Sidebar -->
+		<div class="sidebar sidebar-style-2" data-background-color="blue2">
+			<div class="sidebar-wrapper scrollbar scrollbar-inner">
+				<div class="sidebar-content">
+					<ul class="nav nav-primary">
+						<li class="nav-section">
+							<span class="sidebar-mini-icon">
+								<i class="fa fa-ellipsis-h"></i>
+							</span>
+							<h4 class="text-section ">My Desk</h4>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#base">
+								<i class="fas fa-layer-group"></i>
+								<p>Service</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="base">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="cctv.html">
+											<span class="sub-item">Monitoring CCTV - Area Gudang</span>
+										</a>
+									</li>
+									<li>
+										<a href="power.html">
+											<span class="sub-item">Monitoring Power</span>
+										</a>
+									</li>
+									<li>
+										<a href="schedule.html">
+											<span class="sub-item">Monitoring Schedule</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-section">
+							<span class="sidebar-mini-icon">
+								<i class="fa fa-ellipsis-h"></i>
+							</span>
+							<h4 class="text-section">Management</h4>
+						</li>
+						<li class="nav-item ">
+							<a href="service.html">
+								<i class="fas fa-universal-access"></i>
+								<p>Service</p>
+							</a>
+						</li>
+						<li class="nav-item active submenu">
+							<a data-toggle="collapse" href="#user">
+								<i class="fas fa-users"></i>
+								<p>Account</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse show" id="user">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="user.html">
+											<span class="sub-item">User</span>
+										</a>
+									</li>
+									<li  class="active">
+										<a href="role.html">
+											<span class="sub-item">Role</span>
+										</a>
+									</li>
+									 
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- End Sidebar -->
+
+		<div class="main-panel">
+			<div class="content ">
+				<div class="page-inner py-1 pl-0">
+					<div class="page-header my-1">
+						<small>
+						<ul class="breadcrumbs">
+							<li class="nav-home">
+								<a href="#">
+									<i class="flaticon-home"></i>
+								</a>
+							</li>
+							<li class="separator">
+								<i class="flaticon-right-arrow"></i>
+							</li>
+							<li class="nav-item">
+								<small>Management</small>
+							</li>
+							<li class="separator">
+								<i class="flaticon-right-arrow"></i>
+							</li>
+							<li class="nav-item">
+								<a href="#">Account</a>
+							</li>
+							<li class="separator">
+                                    <i class="flaticon-right-arrow"></i>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">Role</a>
+                            </li>
+						</ul>
+						</small>
+					</div>
+				</div>
+				<div class="row mr-1 ml-1">
+						<div class="col-md-12">
+							<div class="card">
+								<div class="card-header py-2 " >
+									<h3><strong>Role</strong> <small class="text-default">List</small> 
+	 
+									<a href="role-add.html">	
+									<button class="btn btn-sm btn-success mr-3" style="float: right;">
+											<span class="btn-label">
+												<i class="fa fa-plus"></i>
+											</span>
+											CREATE NEW
+									</button>
+									</a>
+								</h3>
+								</div>
+								<div class="card-body">
+									<div class="table-responsive">
+											<table id="basic-datatables" class="display table table-striped table-hover py-0" >
+												<thead>
+													<tr>
+                                                        <th>Name</th>
+                                                        <th width="12%">Action</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+                                                        <td>User CCTV</td>
+														<td>
+															<a href="role-edit.html"><button class="btn btn-info btn-xs" alt="edit" title="edit"><i class="far fa-edit"></i></button></a>
+															<button class="btn btn-danger btn-xs" alt="delete" title="delete" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-trash-alt"></i></button>
+														</td>
+													</tr>
+													<tr>
+                                                         <td >Administrator</td>
+														 <td>
+															<a href="role-edit.html"><button class="btn btn-info btn-xs" alt="edit" title="edit"><i class="far fa-edit"></i></button></a>
+															<button class="btn btn-danger btn-xs" alt="delete" title="delete" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-trash-alt"></i></button>
+														</td>
+                                                    </tr>
+                                                    <tr>
+                                                            <td >User Power</td>                                                             
+                                                            <td>
+                                                                <a href="role-edit.html"><button class="btn btn-info btn-xs" alt="edit" title="edit"><i class="far fa-edit"></i></button></a>
+                                                                <button class="btn btn-danger btn-xs" alt="delete" title="delete" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-trash-alt"></i></button>
+                                                            </td>
+                                                        </tr>
+												</tbody>
+											</table>
+									</div>
+								</div>
+							</div>
+						</div>	
+				</div>			
+			</div>
+			<footer class="footer">
+				<div class="container-fluid">
+					<div class="copyright ml-auto">
+						2019 . Unified Monitoring Service
+					</div>				
+				</div>
+			</footer>
+		</div>
+		
+	</div>
+
+	<!-- Model Delete -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog border border-dark" role="document">
+		<div class="modal-content">
+	
+		<div class="modal-body bg-danger text-white">
+			<strong>Are you sure delete this data?</strong> 
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+		<div class="modal-footer py-1">
+			<button type="button" class="btn btn-default btn-sm btn-border" data-dismiss="modal">Close</button>
+			<button type="button" class="btn btn-success btn-sm font-weight-bold" data-dismiss="modal">YES!</button>
+		</div>
+		</div>
+	</div>
+	</div>
+	<!-- Modal -->
+	
+
+	<!--   Core JS Files   -->
+	<script src="assets/js/core/jquery.3.2.1.min.js"></script>
+	<script src="assets/js/core/popper.min.js"></script>
+	<script src="assets/js/core/bootstrap.min.js"></script>
+
+	<!-- jQuery UI -->
+	<script src="assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+	<script src="assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+
+	<!-- jQuery Scrollbar -->
+	<script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+	<!-- Datatables -->
+	<script src="../../assets/js/plugin/datatables/datatables.min.js"></script>
+		
+	<!-- Bootstrap Notify -->
+	<script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+	<!-- Sweet Alert -->
+	<script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+	<!-- Atlantis JS -->
+	<script src="assets/js/atlantis.min.js"></script>
+
+</body>
+<script>
+	$(document).ready(function() {
+			$('#basic-datatables').DataTable({
+			});
+	});
+</script>
+</html>
