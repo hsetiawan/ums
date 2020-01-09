@@ -26,7 +26,7 @@
 
 </head>
 <style>
-	.login{height: -webkit-fill-available;min-height:calc(100% - 123px);}
+	.login{height: -webkit-fill-available;min-height: 100vh;}
 	.show-password{
 		position: absolute;
 		right: 20px;
@@ -36,30 +36,47 @@
 		cursor: pointer;
 	}
 	.register-slogan {
-		background-image: linear-gradient(rgba(17, 183, 248, 0.432), rgba(3, 72, 121, 0.425)), url("assets/img/amazing-Green-Leaf-Background.jpg");
+		background-image: linear-gradient(rgba(196, 199, 10, 0.733), rgba(3, 72, 121, 0.425)), url("assets/img/amazing-Green-Leaf-Background.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		position: relative;
 		}
+	.powered-by{
+		background-image:  url("images/Angkasa_Pura_II_logo_2014.svg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		background-size: 250px 100px;
+	}	
 </style>
 <body >
 	
 	<div class="row mr-0 login" >
-		<div class="col-12 col-md-8 bg-dark  align-items-center register-slogan"></div>
+		<div class="col align-items-center col-xl-8 col-md-8  bg-dark register-slogan">
+				<div class="row align-items-center h-100">
+					<div class="col-xl-12 login-img-area  text-center my-2">
+						<img src="images/logo_ums.svg" class="w-75">
+						<div class="my-3 py-5 text-dark powered-by">
+							Powered By :
+						 </div>
+					</div>
+				</div>
+		</div>
 
-		<div class="col-6 col-md-4 col-sm-12 bg-white py-5 align-items-center">
-				<div class="card card-signin my-3 border border-white shadow-none">
+		<div class="col-xl-4 col-md-4 col-sm-12 bg-white py-2 align-items-center">
+				<div class="card card-signin my-2 hidden-md border border-white shadow-none">
 					<div class="card-body ">
-					<h4 class="card-title text-center py-5 pb-2">Sign <strong>In</strong></h5>
-					<p class="text-center text-black-50">Silahkan masukan username dan password anda  yang sudah terdaftar.
+					<h2 class="text-center py-3 pb-3">Sign <strong>In</strong></h2>
+					<p class="text-center text-black-50 pt-5">Silahkan masukan username dan password anda  yang sudah terdaftar.
 					Untuk memulai menggunakan layanan dari aplikasi ini
 					</p>		
-					<div class="alert alert-danger bg-danger text-white d-none" id="alert-login" role="alert" >
+					<div class="alert alert-danger bg-danger text-white invisible text-meddium" id="alert-login" role="alert" >
 						<b>!</b>  The Username or Password is <b>incorrect</b>.
 					</div>
-					<form class="form-signin pt-2">
-						<div class="form-group form-floating-label py-3 mt-4">
+					<form class="form-signin">
+						<div class="form-group form-floating-label pb-2">
 							<input type="text" id="username" class="form-control input-border-bottom" required autofocus>
 							<label for="username" class="placeholder">Username</label>
 						</div>

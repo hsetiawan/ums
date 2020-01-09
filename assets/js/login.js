@@ -12,6 +12,6 @@ function doLogin(){
      }else if (username ==  userMonitor && password == userMonitorPwd){
         window.location.replace("dashboard-user.html");
     }else{
-        $("#alert-login").addClass("d-print-block").removeClass("d-none");
+        $("#alert-login").addClass("visible").removeClass("invisible");
     }
 }
